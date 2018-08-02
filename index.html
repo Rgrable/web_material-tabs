@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet"/>
+    <script src="main.js"></script>
+    <title>Material Slider</title>
+    <script>
+        let slider = null;
+        window.onload = function () {
+            slider = new MaterialSlider()
+                .setRoot(document.getElementById('root'))
+                .addButton(document.getElementById('btn-1'))
+                .addButton(document.getElementById('btn-2'))
+                .addButton(document.getElementById('btn-3'))
+                .addButton(document.getElementById('btn-4'))
+                .build();
+        };
+    </script>
+</head>
+<body>
+    <div id="root">
+        <button id="btn-1">
+            Place 1
+        </button>
+        <button id="btn-2">
+            Place 2
+        </button>
+        <button id="btn-3">
+            Place 3
+        </button>
+        <button id="btn-4">
+            Place 4
+        </button>
+    </div>
+</body>
+</html>

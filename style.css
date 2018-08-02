@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+div#root button {
+    padding: 10px;
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    font-family: sans-serif;
+    border-style: none;
+    margin: 0;
+}
+
+div#root {
+    background-color: darkred;
+}
